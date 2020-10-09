@@ -10,9 +10,9 @@ S4/S8 quits the cycle.
 Whenever a switch is on, the corresponding LED is on as well.
 """
 
-STB = 14
-CLK = 15
-DIO = 18
+STB = 26
+CLK = 13
+DIO = 19
 
 TM = TMBoards(DIO, CLK, STB, 0)
 TM.clearDisplay()
